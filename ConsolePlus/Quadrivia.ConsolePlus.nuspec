@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Quadrivia.ConsolePlus</id>
+    <version>1.0.1</version>
+    <authors>Richard Pawson</authors>
+    <owners>Quadrivia</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/QuadriviaOrg/FunctionalLibrary</projectUrl> 
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>.net functional list c# vb</tags>
+    <summary></summary>
+    <description>Functions to facilitate reading and writing values on the Console.</description>
+    <copyright>Copyright 2018</copyright>
+    <releaseNotes>1.0.0</releaseNotes>
+  </metadata>
+    <files>
+      <file src="bin\debug\Quadrivia.ConsolePlus.dll" target="lib\net452\Quadrivia.ConsolePlus.dll"></file>
+    </files>
+</package>

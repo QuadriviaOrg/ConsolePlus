@@ -1,0 +1,6 @@
+﻿1. Ensure NuGet.exe is within the project folder
+2. Update Version and other details on Quadrivia.FunctionalLibrary.nuspec
+3. Open Package Manager Console
+4. PM> nuget pack C:\QuadriviaOrg\ConsolePlus\ConsolePlus\Quadrivia.ConsolePlus.nuspec
+5. Sign in to Nuget.org
+6. Manage packages > Add New then drop nupkg file

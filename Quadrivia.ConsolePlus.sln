@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrivia.ConsolePlus", "ConsolePlus\Quadrivia.ConsolePlus.csproj", "{DE41573E-B72B-4A79-B872-B1DCFA871DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{5C814D59-866B-44E8-8D88-D074F60586F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE41573E-B72B-4A79-B872-B1DCFA871DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE41573E-B72B-4A79-B872-B1DCFA871DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE41573E-B72B-4A79-B872-B1DCFA871DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE41573E-B72B-4A79-B872-B1DCFA871DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C814D59-866B-44E8-8D88-D074F60586F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C814D59-866B-44E8-8D88-D074F60586F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C814D59-866B-44E8-8D88-D074F60586F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C814D59-866B-44E8-8D88-D074F60586F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B01402-3A8B-44E1-AC34-3FA4C86E6082}
+	EndGlobalSection
+EndGlobal
