@@ -21,9 +21,9 @@ namespace Quadrivia
             Console.WriteLine(g);
             int h = ConsolePlus.ReadIndex("String from Foo, Bar (case sensitive): ", new string[] { "Foo", "Bar" }, true);
             Console.WriteLine(h);
-            int i = ConsolePlus.ReadCharIndex("Char from Y, N (case insensitive): ", new char[] { 'Y', 'N' }, false);
+            char i = ConsolePlus.ReadChar("Char from Y, N (case insensitive): ", new char[] { 'Y', 'N' }, false);
             Console.WriteLine(i);
-            int j = ConsolePlus.ReadCharIndex("Char from Y, N (case sensitive): ", new char[] { 'Y', 'N' }, true);
+            char j = ConsolePlus.ReadChar("Char from Y, N (case sensitive): ", new char[] { 'Y', 'N' }, true);
             Console.WriteLine(j);
 
             Console.WriteLine("Testing output functions");
