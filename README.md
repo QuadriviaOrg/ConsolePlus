@@ -21,9 +21,9 @@ int g = ConsolePlus.ReadIndex("String from Foo, Bar (case insensitive): ", new s
 
 int h = ConsolePlus.ReadIndex("String from Foo, Bar (case sensitive): ", new string[] { "Foo", "Bar" }, true);
 
-int i = ConsolePlus.ReadCharIndex("Char from Y, N (case insensitive): ", new char[] { 'Y', 'N' }, false);
+char i = ConsolePlus.ReadChar("Char from Y, N (case insensitive): ", new char[] { 'Y', 'N' }, false);
 
-int j = ConsolePlus.ReadCharIndex("Char from Y, N (case sensitive): ", new char[] { 'Y', 'N' }, true);
+char j = ConsolePlus.ReadChar("Char from Y, N (case sensitive): ", new char[] { 'Y', 'N' }, true);
 
 Console.WriteLine("Testing output functions");
 
